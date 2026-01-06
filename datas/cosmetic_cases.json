@@ -1,0 +1,73 @@
+{
+    "movement": {
+        "name": "Эффекты Ходьбы",
+        "description": [
+            "&f Тестовый кейс"
+        ],
+        "location": "-83 17 100",
+        "case_facing": "east",
+        "lectern_location": "-82 16 100",
+        "lectern_facing": "east",
+        "items": [
+
+        ]
+    },
+    "death": {
+        "name": "Эффекты Смерти",
+        "description": [
+            "&f Тестовый кейс"
+        ],
+        "location": "-87 17 96",
+        "case_facing": "north",
+        "lectern_location": "-87 16 95",
+        "lectern_facing": "north",
+        "items": [
+
+        ]
+    },
+    "kill": {
+        "name": "Эффекты Убийств",
+        "description": [
+            "&f Тестовый кейс"
+        ],
+        "location": "-87 17 104",
+        "case_facing": "north",
+        "lectern_location": "-87 16 103",
+        "lectern_facing": "north",
+        "items": [
+            
+        ]
+    },
+    "suffix": {
+        "name": "Суффиксы",
+        "description": [
+            "&f Тестовый кейс"
+        ],
+        "location": "-91 17 100",
+        "case_facing": "east",
+        "lectern_location": "-90 16 100",
+        "lectern_facing": "east",
+        "items": [
+            "seeker",
+            "wanderer",
+            "roamer",
+            "traveler",
+            "guardian",
+            "shadowed",
+            "brave",
+            "survivor",
+            "abyssal",
+            "agile",
+            "eternal",
+            "unbroken",
+            "phantom",
+            "abandoned",
+            "lord",
+            "clumsy",
+            "overconfident",
+            "tiny",
+            "greedy",
+            "sneaky"
+        ]
+    }
+}

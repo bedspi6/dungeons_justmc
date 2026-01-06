@@ -1,0 +1,246 @@
+{
+    "player_join": {
+        "embeds": [
+            {
+                "title": "Игрок зашел в мир!",
+                "description": "Игрок под ником **^player^**.", 
+                "color": 11534235,
+                "timestamp": "^time^",
+                "fields": [
+                    {
+                        "name": "Отображаемый никнейм:",
+                        "value": "^var(^player^.raw_nickname_text)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Мастерство:",
+                        "value": "^var_save(^player_uuid^.outgame.mastery)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Золото:",
+                        "value": "^var_save(^player_uuid^.outgame.gold)",
+                        "inline": true
+                    }
+                ],
+                "thumbnail": {
+                    "url": "^var(^player^.webhook.head_url)/left"
+                },
+                "footer": {
+                    "text": "JustMC Dungeons"
+                }
+            }
+        ]
+    },
+    "player_quit": {
+        "embeds": [
+            {
+                "title": "Игрок вышел из мира!",
+                "description": "Игрок под ником **^player^**.",
+                "color": 16751515,
+                "timestamp": "^time^",
+                "fields": [
+                    {
+                        "name": "Отображаемый никнейм:",
+                        "value": "^var(^player^.raw_nickname_text)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Мастерство:",
+                        "value": "^var_save(^player_uuid^.outgame.mastery)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Золото:",
+                        "value": "^var_save(^player_uuid^.outgame.gold)",
+                        "inline": true
+                    }
+                ],
+                "thumbnail": {
+                    "url": "^var(^player^.webhook.head_url)/left"
+                },
+                "footer": {
+                    "text": "JustMC Dungeons"
+                }
+            }
+        ]
+    },
+    "player_message": {
+        "avatar_url": "^var(^player^.webhook.head_url)",
+        "username": "^var(^player^.raw_nickname_text)",
+        "content": "^val(event_chat_message)"
+    },
+    "show_item": {
+        "embeds": [
+            {
+                "title": "Игрок показывает предмет!",
+                "description": "Игрок под ником **^player^**. Показывает ^var_local(main_hand_item.name).",
+                "color": 13421772,
+                "timestamp": "^time^",
+                "image": {
+                    "url": "^var(world.webhook.item_textures_url)^var_local(main_hand_item.type).png"
+                },
+                "thumbnail": {
+                    "url": "^var(^player^.webhook.head_url)/left"
+                },
+                "fields": [
+                    {
+                        "name": "Название:",
+                        "value": "^var_local(main_hand_item.name)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Модификатор:",
+                        "value": "^entry(world.modifiers.codenames, ^entry_local(main_hand_item.nbts, item.modifiers))",
+                        "inline": true
+                    },
+                    {
+                        "name": "Редкость:",
+                        "value": "^entry(world.rarities.colorless_codenames, ^entry_local(main_hand_item.nbts, item.rarity))",
+                        "inline": true
+                    },
+                    {
+                        "name": "Описание:",
+                        "value": "^entry_local(main_hand_item.nbts.des, inline)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Активируемый:",
+                        "value": "^entry_local(main_hand_item.nbts.des, active)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Пассивный:",
+                        "value": "^entry_local(main_hand_item.nbts.des, passive)",
+                        "inline": true
+                    }
+                ],
+                "footer": {
+                    "text": "JustMC Dungeons"
+                }
+            }
+        ]
+    },
+    "player_died": {
+        "embeds": [
+            {
+                "title": "Игрок умер!",
+                "description": "Игрок под ником **^player^**.",
+                "color": 12320768,
+                "timestamp": "^time^",
+                "thumbnail": {
+                    "url": "^var(^player^.webhook.head_url)/left"
+                },
+                "footer": {
+                    "text": "JustMC Dungeons"
+                }
+            }
+        ]
+    },
+    "game_started": {
+        "embeds": [
+            {
+                "title": "Игра началась!",
+                "fields": [
+                    {
+                        "name": "Количество игроков:",
+                        "value": "^var(game.survivors)",
+                        "inline": true
+                    }
+                ],
+                "color": 14647295,
+                "timestamp": "^time^",
+                "footer": {
+                    "text": "JustMC Dungeons"
+                }
+            }
+        ]
+    },
+    "generation": {
+        "embeds": [
+            {
+                "title": "Карта сгенерировано!",
+                "color": 13421772,
+                "timestamp": "^time^",
+                "fields": [
+                    {
+                        "name": "Пустых комнат:",
+                        "value": "^entry_local(generated.room_types, empty)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Комнаты спавнерами:",
+                        "value": "^entry_local(generated.room_types, spawner)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Комнаты торговцами:",
+                        "value": "^entry_local(generated.room_types, trader)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Комнаты боссами:",
+                        "value": "^entry_local(generated.room_types, boss)",
+                        "inline": true
+                    }
+                ],
+                "footer": {
+                    "text": "JustMC Dungeons"
+                }
+            }
+        ]
+    },
+    "game_ended": {
+        "embeds": [
+            {
+                "title": "Игра закончилась!",
+                "color": 14647295,
+                "timestamp": "^time^",
+                "footer": {
+                    "text": "JustMC Dungeons"
+                }
+            }
+        ]
+    },
+    "room_cleared": {
+        "embeds": [
+            {
+                "title": "Комната ^var_local(nbt.mob.room_id) зачищено!",
+                "description": "Первое место по урону получил игрок под ником **^var(^var_local(leaderboard.top_player).raw_nickname_text)** с количеством урона **^entry_local(leaderboard.room_damage, ^var_local(leaderboard.top_player))**.",
+                "color": 16762713,
+                "thumbnail": {
+                    "url": "^var(^player^.webhook.head_url)/left"
+                },
+                "timestamp": "^time^",
+                "footer": {
+                    "text": "JustMC Dungeons"
+                }
+            }
+        ]
+    },
+    "world_launch": {
+        "embeds": [
+            {
+                "title": "Мир запущен!",
+                "description": "Данные загружены.",
+                "color": 8374271,
+                "timestamp": "^time^",
+                "footer": {
+                    "text": "JustMC Dungeons"
+                }
+            }
+        ]
+    },
+    "world_stop": {
+        "embeds": [
+            {
+                "title": "Мир остановлен!",
+                "color": 8374271,
+                "timestamp": "^time^",
+                "footer": {
+                    "text": "JustMC Dungeons"
+                }
+            }
+        ]
+    }
+}

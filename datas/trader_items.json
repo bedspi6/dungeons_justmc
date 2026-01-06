@@ -1,0 +1,21 @@
+{
+    "purchases": [
+        {
+            "item_type": "minecraft:rotten_flesh",
+            "item_amount": 1,
+            "price": 2
+        },
+        {
+            "item_type": "minecraft:bone",
+            "item_amount": 1,
+            "price": 3
+        }
+    ],
+    "sales": [
+        {
+            "item_type": "minecraft:bow",
+            "item_amount": 1,
+            "price": 10
+        }   
+    ]
+}

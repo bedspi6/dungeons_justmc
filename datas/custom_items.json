@@ -1,0 +1,172 @@
+{
+    "common_pack": {
+        "model": "paper",
+        "custom_model": "gray_bundle",
+        "weight": 60,
+        "rarity": "common",
+        "name": "Обычный набор",
+        "modifiers": "active",
+        "mod_script": "rarity_random_item",
+        "mods_properties": {
+            "rarity": "common"
+        },
+        "des": {
+            "active": "Выдает случайный обычный предмет."
+        },
+        "max_stack": 8
+    },
+
+    "uncommon_pack": {
+        "model": "paper",
+        "custom_model": "green_bundle",
+        "weight": 30,
+        "rarity": "uncommon",
+        "name": "Необычный набор",
+        "modifiers": "active",
+        "mod_script": "rarity_random_item",
+        "mods_properties": {
+            "rarity": "uncommon"
+        },
+        "des": {
+            "active": "Выдает случайный необычный предмет."
+        },
+        "max_stack": 8
+    },
+
+    "rare_pack": {
+        "model": "paper",
+        "custom_model": "blue_bundle",
+        "weight": 10,
+        "rarity": "rare",
+        "name": "Редкий набор",
+        "modifiers": "active",
+        "mod_script": "rarity_random_item",
+        "mods_properties": {
+            "rarity": "rare"
+        },
+        "des": {
+            "active": "Выдает случайный редкий предмет."
+        },
+        "max_stack": 8
+    },
+
+    "slime_ball": {
+        "model": "paper",
+        "custom_model": "slime_ball",
+        "weight": 60,
+        "rarity": "common",
+        "name": "Слайм",
+        "modifiers": "passive",
+        "mods_properties": {
+            "knockback": 1
+        },
+        "player_attributes": {
+            "generic.attack_knockback": "*knockback"
+        },
+        "des": {
+            "passive": "Увеличивает отталкивание от ударов. Эффект усиливается при стеке до 3 предметов, помогая контролировать позицию в бою с толпой."
+        },
+        "max_stack": 3
+    },
+
+    "status_pack": {
+        "model": "paper",
+        "custom_model": "white_bundle",
+        "weight": 30,
+        "rarity": "uncommon",
+        "name": "Набор статусов",
+        "modifiers": "active",
+        "mods_properties": {
+            "items": [
+                "fireball",
+                "windball",
+                "snowball",
+                "lightball",
+                "spore"
+            ]
+        },
+        "des": {
+            "active": "Выдает случайный статус предмет."
+        },
+        "max_stack": 3
+    },
+
+    "fireball": {
+        "model": "paper",
+        "custom_model": "fire_charge",
+        "weight": 60,
+        "rarity": "common",
+        "name": "Огненный шар",
+        "modifiers": "active",
+        "des": {
+            "active": "Поджигает выбранное существо. Если цель уже горит — вызывает огненный взрыв по области."
+        },
+        "max_stack": 6
+    },
+
+    "windball": {
+        "model": "paper",
+        "custom_model": "wind_charge",
+        "weight": 60,
+        "rarity": "common",
+        "name": "Заряд ветра",
+        "modifiers": "active",
+        "des": {
+            "active": "Отталкивает выбранное существо и ближайших к нему врагов. Сила отталкивания зависит от расстояния до цели."
+        },
+        "max_stack": 6
+    },
+
+    "snowball": {
+        "model": "paper",
+        "custom_model": "snowball",
+        "weight": 60,
+        "rarity": "common",
+        "name": "Снежок",
+        "modifiers": "active",
+        "des": {
+            "active": "Замораживает выбранное существо и ближайших врагов. Эффект снимается при получении урона."
+        },
+        "max_stack": 6
+    },
+
+    "lightball": {
+        "model": "paper",
+        "custom_model": "lightning_rod",
+        "weight": 60,
+        "rarity": "common",
+        "name": "Громоотвод",
+        "modifiers": "active",
+        "des": {
+            "active": "Поражает выбранное существо ударом молнии. Урон увеличивается, если рядом есть другие существа."
+        },
+        "max_stack": 6
+    },
+
+    "spore": {
+        "model": "paper",
+        "custom_model": "brown_mushroom",
+        "weight": 60,
+        "rarity": "common",
+        "name": "Споры",
+        "modifiers": "active",
+        "des": {
+            "active": "Отравляет выбранное существо и ближайших врагов. При смерти цели остаётся ядовитое облако."
+        },
+        "max_stack": 6
+    },
+
+    "totem": {
+        "model": "paper",
+        "custom_model": "totem_of_undying",
+        "weight": 10,
+        "rarity": "rare",
+        "name": "Тотем",
+        "modifiers": "active/passive",
+        "des": {
+            "active": "Позволяет воскресить другого игрока.",
+            "passive": "Предотвращает смерть владельца."
+        },
+        "max_stack": 1
+    }
+}

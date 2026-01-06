@@ -1,0 +1,35 @@
+{
+    "zombie": {
+        "floor": 0,
+        "mob_type": "zombie", 
+        "name": "Зомби",
+        "hp": 20,
+        "level_progression": {
+            "hp": 30
+        },
+        "drops": [
+            {
+                "item_type": "minecraft:rotten_flesh",
+                "amount": 1
+            }
+        ]
+    },
+    "skeleton": {
+        "floor": 0,
+        "mob_type": "skeleton", 
+        "name": "Скелет",
+        "hp": 10,
+        "level_progression": {
+            "hp": 30
+        },
+        "equipment": {
+            "hand": "minecraft:bow"
+        },
+        "drops": [
+            {
+                "item_type": "minecraft:bone",
+                "amount": 1
+            }
+        ]
+    }
+}
