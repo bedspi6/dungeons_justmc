@@ -1,0 +1,11 @@
+{
+    "https://raw.githubusercontent.com/bedspi6/dungeons_justmc/refs/heads/main/datas/inv_items.json": "inv_items",
+    "https://raw.githubusercontent.com/bedspi6/dungeons_justmc/refs/heads/main/datas/mobs.json": "mobs_data",
+    "https://raw.githubusercontent.com/bedspi6/dungeons_justmc/refs/heads/main/datas/visual_texts.json": "visual_texts",
+    "https://raw.githubusercontent.com/bedspi6/dungeons_justmc/refs/heads/main/datas/cosmetic_items.json": "cosmetic_items",
+    "https://raw.githubusercontent.com/bedspi6/dungeons_justmc/refs/heads/main/datas/cosmetic_cases.json": "cosmetic_cases",
+    "https://raw.githubusercontent.com/bedspi6/dungeons_justmc/refs/heads/main/datas/custom_items.json": "custom_items",
+    "https://raw.githubusercontent.com/bedspi6/dungeons_justmc/refs/heads/main/datas/floors_data.json": "floors_data",
+    "https://raw.githubusercontent.com/bedspi6/dungeons_justmc/refs/heads/main/datas/link_blocks.json": "link_blocks",
+    "https://raw.githubusercontent.com/bedspi6/dungeons_justmc/refs/heads/main/datas/webhook_templates.json": "webhook_templates"
+}

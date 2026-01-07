@@ -4,9 +4,9 @@
         "description": [
             "&f Тестовый кейс"
         ],
-        "location": "-83 17 100",
+        "location": "-53 -22 94",
         "case_facing": "east",
-        "lectern_location": "-82 16 100",
+        "lectern_location": "-52 -23 94",
         "lectern_facing": "east",
         "items": [
 
@@ -17,9 +17,9 @@
         "description": [
             "&f Тестовый кейс"
         ],
-        "location": "-87 17 96",
+        "location": "-57 -22 98",
         "case_facing": "north",
-        "lectern_location": "-87 16 95",
+        "lectern_location": "-57 -23 97",
         "lectern_facing": "north",
         "items": [
 
@@ -30,9 +30,9 @@
         "description": [
             "&f Тестовый кейс"
         ],
-        "location": "-87 17 104",
+        "location": "-57 -22 90",
         "case_facing": "north",
-        "lectern_location": "-87 16 103",
+        "lectern_location": "-57 -23 89",
         "lectern_facing": "north",
         "items": [
             
@@ -43,9 +43,9 @@
         "description": [
             "&f Тестовый кейс"
         ],
-        "location": "-91 17 100",
+        "location": "-61 -22 94",
         "case_facing": "east",
-        "lectern_location": "-90 16 100",
+        "lectern_location": "-60 -23 94",
         "lectern_facing": "east",
         "items": [
             "seeker",
