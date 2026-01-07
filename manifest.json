@@ -1,0 +1,14 @@
+{
+    "url": "https://raw.githubusercontent.com/bedspi6/dungeons_justmc/refs/heads/main/datas/",
+    "files": [
+        "inv_items.json",
+        "mobs.json",
+        "visual_texts.json",
+        "cosmetic_items.json",
+        "cosmetic_cases.json",
+        "custom_items.json",
+        "floors_data.json",
+        "link_blocks.json",
+        "webhook_templates.json"
+    ]
+}
