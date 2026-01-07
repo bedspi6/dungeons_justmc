@@ -7,7 +7,7 @@
         "cosmetic_items.json",
         "cosmetic_cases.json",
         "custom_items.json",
-        "floors_data.json",
+        "floors.json",
         "link_blocks.json",
         "webhook_templates.json"
     ]

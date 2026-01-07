@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Каменный",
+        "description": [
+            "Самый начальный дефолтный этаж."
+        ],
+        "rooms": {
+            "empty": 0,
+            "boss": 0,
+            "spawner": -1,
+            "trader": 1
+        },
+        "drops_pool": [
+            "totem",
+            "slime_ball",
+            "fireball",
+            "windball",
+            "snowball",
+            "lightball",
+            "spore"
+        ]
+    }
+]
