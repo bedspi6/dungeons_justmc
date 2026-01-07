@@ -9,6 +9,7 @@
         "custom_items.json",
         "floors.json",
         "link_blocks.json",
-        "webhook_templates.json"
+        "webhook_templates.json",
+        "leaderboards.json"
     ]
 }
