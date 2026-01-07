@@ -1,10 +1,18 @@
 {
     "mastery": 
     {
-        "location": "",
+        "location": "-53 -20 102 -180 0",
         "places_amount": 10,
-        "info": "",
-        "var_name": "",
-        "place_display": ""
+        "info": "Лидерборд по мастерству",
+        "var_name": "~nick~.outgame.mastery",
+        "place_display": "~place~. ~nick~ - ~value~"
+    },
+    "trophies": 
+    {
+        "location": "-63.5 -19.5 90.5 -90 0",
+        "places_amount": 10,
+        "info": "Лидерборд по трофеям",
+        "var_name": "~nick~.outgame.trophies",
+        "place_display": "~place~. ~nick~ - ~value~"
     }
 }
