@@ -11,6 +11,8 @@
         "link_blocks.json",
         "webhook_templates.json",
         "leaderboards.json",
-        "cosmetic_categories.json"
+        "cosmetic_categories.json",
+        "outgame_scoreboard.json",
+        "ingame_scoreboard.json"
     ]
 }
