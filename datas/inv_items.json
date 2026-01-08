@@ -9,8 +9,10 @@
     },
     "inv.cosmetics": {
         "model": "leather_chestplate",
+        "name": "Косметика",
         "description": [
-            ""
+            "",
+            "&#cccccc[Клик] → &#E5E5E5Открыть меню"
         ]
     },
     "inv.weight_random_info": {
