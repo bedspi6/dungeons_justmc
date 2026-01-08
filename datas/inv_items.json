@@ -7,6 +7,12 @@
         "model": "gray_stained_glass_pane",
         "tooltip": 1
     },
+    "inv.cosmetics": {
+        "model": "leather_chestplate",
+        "description": [
+            ""
+        ]
+    },
     "inv.weight_random_info": {
         "model": "oak_hanging_sign",
         "name": "Информация про выпадения весами",
