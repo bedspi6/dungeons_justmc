@@ -10,6 +10,7 @@
         "floors.json",
         "link_blocks.json",
         "webhook_templates.json",
-        "leaderboards.json"
+        "leaderboards.json",
+        "cosmetic_categories.json"
     ]
 }
