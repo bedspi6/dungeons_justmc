@@ -1,7 +1,7 @@
 {
     "mastery": 
     {
-        "location": "-53 -20 102 -180 0",
+        "location": "-52.5 -19.5 101.5 -180 0",
         "places_amount": 10,
         "info": "Лидерборд по мастерству",
         "var_name": "~nick~.outgame.mastery",
