@@ -48,5 +48,15 @@
         "settings": {
             "display_mode": "fixed"
         }
+    },
+    {
+        "name": "discord",
+        "cords": "-51.5 -23.9 89.5 -180 -90",
+        "content": [
+            "Присоединяйся к нашему Discord!"
+        ],
+        "settings": {
+            "display_mode": "fixed"
+        }
     }
 ]
