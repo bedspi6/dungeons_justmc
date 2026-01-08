@@ -13,6 +13,11 @@
                         "inline": true
                     },
                     {
+                        "name": "Трофеи:",
+                        "value": "^var_save(^player_uuid^.outgame.trophies)",
+                        "inline": true
+                    },
+                    {
                         "name": "Мастерство:",
                         "value": "^var_save(^player_uuid^.outgame.mastery)",
                         "inline": true
@@ -20,6 +25,16 @@
                     {
                         "name": "Золото:",
                         "value": "^var_save(^player_uuid^.outgame.gold)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Текущий класс:",
+                        "value": "^var_save(^player_uuid^.outgame.class)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Наиграное время:",
+                        "value": "^var_save(^player_uuid^.outgame.played_time)",
                         "inline": true
                     }
                 ],
@@ -46,6 +61,11 @@
                         "inline": true
                     },
                     {
+                        "name": "Трофеи:",
+                        "value": "^var_save(^player_uuid^.outgame.trophies)",
+                        "inline": true
+                    },
+                    {
                         "name": "Мастерство:",
                         "value": "^var_save(^player_uuid^.outgame.mastery)",
                         "inline": true
@@ -53,6 +73,16 @@
                     {
                         "name": "Золото:",
                         "value": "^var_save(^player_uuid^.outgame.gold)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Текущий класс:",
+                        "value": "^var_save(^player_uuid^.outgame.class)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Наиграное время:",
+                        "value": "^var_save(^player_uuid^.outgame.played_time)",
                         "inline": true
                     }
                 ],
