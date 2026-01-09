@@ -1,35 +1,93 @@
 {
     "zombie": {
-        "floor": 0,
         "mob_type": "zombie", 
         "name": "Зомби",
-        "hp": 20,
-        "level_progression": {
-            "hp": 30
+        "base_attributes": {
+            "generic.max_health": 20,
+            "generic.attack_damage": 5,
+            "generic.movement_speed": 0.8
         },
-        "drops": [
+        "level_progression": [
             {
-                "item_type": "minecraft:rotten_flesh",
-                "amount": 1
+                "equipment": {
+                    "head": [
+                        { "item": null, "weight": 5 },
+                        { "item": "minecraft:leather_helmet", "weight": 5 }
+                    ],
+                    "chest": [
+                        { "item": null, "weight": 3 },
+                        { "item": "minecraft:leather_chestplate", "weight": 7 }
+                    ],
+                    "legs": [
+                        { "item": null, "weight": 4 },
+                        { "item": "minecraft:leather_leggings", "weight": 6 }
+                    ],
+                    "feet": [
+                        { "item": null, "weight": 6 },
+                        { "item": "minecraft:leather_boots", "weight": 4 }
+                    ]
+                },
+                "drops": [
+                    {
+                        "item_type": "minecraft:bone",
+                        "amount": { "min": 1, "max": 3 },
+                        "weight": 1
+                    }
+                ]
             }
-        ]
+        ],
+        "resistances": {
+            "poison": 0.5,
+            "bleeding": 1.5
+        }
     },
     "skeleton": {
-        "floor": 0,
-        "mob_type": "skeleton", 
+        "mob_type": "skeleton",
         "name": "Скелет",
-        "hp": 10,
-        "level_progression": {
-            "hp": 30
+        "base_attributes": {
+            "generic.max_health": 10,
+            "generic.movement_speed": 1.2
         },
-        "equipment": {
-            "hand": "minecraft:bow"
+        "base_nbts": {
+            "ranged_damage": 3
         },
-        "drops": [
+        "base_resistances": {
+            "poison": 1.5,
+            "bleeding": 0.5
+        },
+        "level_progression": [
             {
-                "item_type": "minecraft:bone",
-                "amount": 1
+                "equipment": {
+                    "hand": [
+                        { "item": "minecraft:bow", "weight": 1 }
+                    ],
+                    "head": [
+                        { "item": null, "weight": 5 },
+                        { "item": "minecraft:leather_helmet", "weight": 5 }
+                    ],
+                    "chest": [
+                        { "item": null, "weight": 3 },
+                        { "item": "minecraft:leather_chestplate", "weight": 7 }
+                    ],
+                    "legs": [
+                        { "item": null, "weight": 4 },
+                        { "item": "minecraft:leather_leggings", "weight": 6 }
+                    ],
+                    "feet": [
+                        { "item": null, "weight": 6 },
+                        { "item": "minecraft:leather_boots", "weight": 4 }
+                    ]
+                },
+                "drops": [
+                    {
+                        "item_type": "minecraft:bone",
+                        "amount": { "min": 1, "max": 3 },
+                        "weight": 1
+                    }
+                ]
             }
         ]
+        
     }
+
 }

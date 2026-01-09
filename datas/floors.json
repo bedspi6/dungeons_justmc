@@ -18,6 +18,12 @@
             "snowball",
             "lightball",
             "spore"
+        ],
+        "mobs": [
+            {
+                "zombie": {"min_lvl": 0, "max_lvl": 0},
+                "skeleton": {"min_lvl": 0, "max_lvl": 0 }
+            }
         ]
     }
 ]
