@@ -1,7 +1,6 @@
 {
     "space1": "",
-    "trophies": "&#FFDF3FТрофеи: &#FFEE7F^var_save(^var_line(player_nick).outgame.trophies) ⋆",
-    "mastery": "&#7FD6FFМастерство: ^var_save(^var_line(param.player_uuid).outgame.mastery) ★",
-    "gold": "&#FFBA19Золото: &#FFCC4C^var_save(^var_line(player_nick).outgame.gold) &#FFCC4C◆",
+    "trophies": "&#FFDF3F Трофеи: &#FFEE7F^var_save(^var_line(player_nick).outgame.trophies) ⋆",
+    "gold": "&#FFBA19 Золото: &#FFCC4C^var_save(^var_line(player_nick).outgame.gold) &#FFCC4C◆",
     "space2": ""
 }
