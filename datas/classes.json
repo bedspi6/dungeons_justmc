@@ -1,7 +1,7 @@
 {
     "empty": {
         "hub": {
-            "npc_location": "-76.5 -22 88 180 0",
+            "npc_location": "-76.5 -22 88.0 180 0",
             "lectern_location": "-77 -23 85",
             "lectern_facing": "north"
         },
@@ -12,7 +12,7 @@
     },
     "warrior": {
         "hub": {
-            "npc_location": "-76.5 -22 77 0 0",
+            "npc_location": "-76.5 -22 77.0 0 0",
             "lectern_location": "-77 -23 79",
             "lectern_facing": "south",
             "equipment": {
