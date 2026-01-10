@@ -1,5 +1,18 @@
 {
-    "": {
-        
+    "empty": {
+        "name": "Без прошлого",
+        "description": "Чистый старт.",
+        "starter_items": [],
+        "starter_characteristics": {}
+    },
+    "warrior": {
+        "name": "Воин",
+        "description": "Боец ближнего боя.",
+        "starter_items": [
+            { "item": "minecraft:stone_sword", "amount": 1 }
+        ],
+        "start_characteristics": {
+            "max_health": 2.0
+        }
     }
 }
