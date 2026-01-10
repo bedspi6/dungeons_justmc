@@ -29,12 +29,7 @@
                     },
                     {
                         "name": "Наиграное время:",
-                        "value": "^var_save(^player_uuid^.outgame.played_time)",
-                        "inline": true
-                    },
-                    {
-                        "name": "Наиграное время за заход:",
-                        "value": "^var(^player^.outgame.this_played_time)",
+                        "value": "^var_save(^player_uuid^.outgame.played_time.hours) часов. ^var_save(^player_uuid^.outgame.played_time.minutes) минут",
                         "inline": true
                     }
                 ],
