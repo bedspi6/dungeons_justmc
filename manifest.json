@@ -15,6 +15,7 @@
         "outgame_scoreboard.json",
         "ingame_scoreboard.json",
         "npcs.json",
-        "characteristics.json"
+        "characteristics.json",
+        "classes.json"
     ]
 }
