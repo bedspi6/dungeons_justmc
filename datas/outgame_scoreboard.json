@@ -1,6 +1,6 @@
 {
     "space1": "",
-    "trophies": "&#FFDF3F Трофеи: &#FFEE7F^var_save(^var_line(player_nick).outgame.trophies) ⋆",
-    "gold": "&#FFBA19 Золото: &#FFCC4C^var_save(^var_line(player_nick).outgame.gold) &#FFCC4C◆",
+    "trophies": "&#FFDF3F Трофеи: &#FFEE7F^var_save(^selected_uuid^.outgame.trophies) ⋆",
+    "gold": "&#FFBA19 Золото: &#FFCC4C^var_save(^selected_uuid^.outgame.gold)◆",
     "space2": ""
 }
