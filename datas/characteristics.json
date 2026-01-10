@@ -12,7 +12,7 @@
     "damage": {
         "display": "&#D84B4B 🗡 Урон: ~value~ ед.",
         "attribute_name": "generic.attack_damage",
-        "default_value": 20
+        "default_value": 1
     },
     "attack_speed": {
         "display": "&#59A9FF ⚡ Скорость Атаки: ~value~ ед.",
