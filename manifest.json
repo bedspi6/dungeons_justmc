@@ -13,6 +13,7 @@
         "leaderboards.json",
         "cosmetic_categories.json",
         "outgame_scoreboard.json",
-        "ingame_scoreboard.json"
+        "ingame_scoreboard.json",
+        "npcs.json"
     ]
 }
