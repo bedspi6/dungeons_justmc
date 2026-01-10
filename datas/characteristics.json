@@ -1,0 +1,32 @@
+{
+    "max_health": {
+        "display": "&#FF5959❤ Макс. хп: ~value~",
+        "attribute_name": "generic.max_health",
+        "default_value": 20
+    },
+    "movement_speed": {
+        "display": "&#59A9FF🌊 Скорость передвижения: ~value~",
+        "attribute_name": "generic.movement_speed",
+        "default_value": 20
+    },
+    "damage": {
+        "display": "&#D84B4B🗡 Урон: ~value~",
+        "attribute_name": "generic.attack_damage",
+        "default_value": 20
+    },
+    "attack_speed": {
+        "display": "&#59A9FF⚡ Скорость Атаки: ~value~",
+        "attribute_name": "generic.attack_speed",
+        "default_value": 20
+    },
+    "melee_range": {
+        "display": "&#D8D8D8⭘ Дальность атаки: ~value~",
+        "attribute_name": "player_entity_interaction_range",
+        "default_value": 3
+    },
+    "knockback": {
+        "display": "&#D8D8D8🎣 Отталкивание атак: ~value~",
+        "attribute_name": "generic.attack_knockback",
+        "default_value": 20
+    }
+}
