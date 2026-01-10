@@ -1,7 +1,7 @@
 {
     "empty": {
         "hub": {
-            "npc_location": "-76.5 -21.5 87.5 180 0",
+            "npc_location": "-76.5 -22 87.5 180 0",
             "lectern_location": "-77 -23 85",
             "lectern_facing": "north"
         },
@@ -12,17 +12,25 @@
     },
     "warrior": {
         "hub": {
-            "npc_location": "-76.5 -21.5 76.5 0 0",
+            "npc_location": "-76.5 -22 76.5 0 0",
             "lectern_location": "-77 -23 79",
-            "lectern_facing": "south"
+            "lectern_facing": "south",
+            "equipment": {
+                "hand": "minecraft:iron_sword",
+                "chest": "minecraft:iron_chestplate"
+            }
         },
         "name": "Воин",
         "description": "Боец ближнего боя.",
         "starter_items": [
-            { "item": "minecraft:stone_sword", "amount": 1 }
+            { "item": "minecraft:iron_chestplate", "amount": 1 },
+            { "item": "minecraft:iron_sword", "amount": 1 }
         ],
         "start_characteristics": {
-            "max_health": 2.0
+            "max_health": 10,
+            "damage": 5,
+            "movement_speed": -3,
+            "attack_speed": -2
         }
     }
 }
