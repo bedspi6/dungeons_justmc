@@ -23,8 +23,8 @@
         "name": "Воин",
         "description": "Боец ближнего боя.",
         "starter_items": [
-            { "item": "minecraft:iron_chestplate", "amount": 1 },
-            { "item": "minecraft:iron_sword", "amount": 1 }
+            { "item": "minecraft:iron_chestplate", "amount": 1, "type": "armor" },
+            { "item": "minecraft:iron_sword", "amount": 1, "type": "weapon" }
         ],
         "starter_characteristics": {
             "max_health": 10,

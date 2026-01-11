@@ -16,6 +16,8 @@
         "ingame_scoreboard.json",
         "npcs.json",
         "characteristics.json",
-        "classes.json"
+        "classes.json",
+        "items_descriptions.json",
+        "cutscene_door_frames.json"
     ]
 }
