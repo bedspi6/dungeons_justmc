@@ -26,7 +26,7 @@
             { "item": "minecraft:iron_chestplate", "amount": 1 },
             { "item": "minecraft:iron_sword", "amount": 1 }
         ],
-        "start_characteristics": {
+        "starter_characteristics": {
             "max_health": 10,
             "damage": 5,
             "movement_speed": -3,
