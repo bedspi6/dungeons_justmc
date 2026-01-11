@@ -24,7 +24,7 @@
                     },
                     {
                         "name": "Текущий класс:",
-                        "value": "^var_save(^player_uuid^.outgame.class)",
+                        "value": "^entry(world.classes_codenames, ^var_save(^player_uuid^.outgame.class))",
                         "inline": true
                     },
                     {
@@ -67,7 +67,7 @@
                     },
                     {
                         "name": "Текущий класс:",
-                        "value": "^var_save(^player_uuid^.outgame.class)",
+                        "value": "^entry(world.classes_codenames, ^var_save(^player_uuid^.outgame.class))",
                         "inline": true
                     },
                     {
