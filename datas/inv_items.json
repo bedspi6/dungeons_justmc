@@ -32,5 +32,12 @@
             "&7Система честная и",
             "&7не зависит от игрока."
         ]
+    },
+    "inv.class_equipments_indicator": {
+        "model": "orange_stained_glass_pane",
+        "name": "Снаряжение класса",
+        "description": [
+            "&8Внизу"
+        ]
     }
 }
