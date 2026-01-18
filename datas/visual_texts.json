@@ -10,6 +10,16 @@
         }
     },
     {
+        "name": "main_text_tutor",
+        "cords": "-44.5 -21 82.5 0 0",
+        "content": [
+            "&8[ПКМ - войти в подбор/наблюдать]"
+        ],
+        "settings": {
+            "display_mode": "center"
+        }
+    },
+    {
         "name": "floor_1",
         "cords": "-55.5 -19.5 72.5 0 0",
         "content": [
@@ -23,7 +33,8 @@
         "name": "floor_2",
         "cords": "-34.5 -19.5 92.5 0 0",
         "content": [
-            "Второй этаж"
+            "Второй этаж",
+            "&8[В разработке]"
         ],
         "settings": {
             "display_mode": "center"
@@ -33,7 +44,8 @@
         "name": "floor_3",
         "cords": "-34.5 -19.5 72.5 0 0",
         "content": [
-            "Третий этаж"
+            "Третий этаж",
+            "&8[В разработке]"
         ],
         "settings": {
             "display_mode": "center"
