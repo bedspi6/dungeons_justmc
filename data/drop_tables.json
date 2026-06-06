@@ -1,0 +1,9 @@
+{
+    "basic_bones": [
+      {
+        "item": "minecraft:bone",
+        "amount": { "min": 1, "max": 3 },
+        "weight": 1
+      }
+    ]
+  }

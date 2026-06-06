@@ -1,0 +1,21 @@
+{
+    "stone": {
+
+        "random_room_types": [
+            {"type": "spawner", "weight": 55},
+            {"type": "trader", "weight": 35, "max_amount": 2 },
+            {"type": "treasure", "weight": 10, "max_amount": 1}
+        ],
+
+        "main_path": {
+            "min": 5,
+            "max": 8
+        },
+
+        "branches": {
+            "chance": 0.4,
+            "min_length": 1,
+            "max_length": 3
+        }
+    }
+}

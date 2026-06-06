@@ -1,5 +1,5 @@
 {
-    "url": "https://raw.githubusercontent.com/bedspi6/dungeons_justmc/refs/heads/main/datas/",
+    "url": "https://raw.githubusercontent.com/bedspi6/dungeons_justmc/refs/heads/main/data/",
     "files": [
         "inv_items.json",
         "mobs.json",
@@ -18,6 +18,10 @@
         "characteristics.json",
         "classes.json",
         "items_descriptions.json",
-        "cutscene_door_frames.json"
+        "cutscene_door_frames.json",
+        "drop_tables.json",
+        "equipment_pool.json",
+        "floor_definitions.json",
+        "floor_generation.json"
     ]
 }

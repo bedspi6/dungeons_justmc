@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Каменный",
+        "description": [
+            "Самый начальный дефолтный этаж."
+        ],
+        "rooms": {
+            "empty": 0,
+            "boss": 1,
+            "spawner": -1,
+            "trader": 1
+        },
+        "drops_pool": [
+            "totem",
+            "slime_ball",
+            "fireball",
+            "windball",
+            "snowball",
+            "lightball",
+            "spore"
+        ],
+        "mobs": {
+            "zombie": {"min_lvl": 0, "max_lvl": 0},
+            "skeleton": {"min_lvl": 0, "max_lvl": 0 }
+        }
+            
+    }
+]

@@ -1,0 +1,26 @@
+{
+    "leather_set": {
+        "head": [
+            { "value": "null", "weight": 5 },
+            { "value": "minecraft:leather_helmet", "weight": 5 }
+        ],
+        "chest": [
+            { "value": "null", "weight": 3 },
+            { "value": "minecraft:leather_chestplate", "weight": 7 }
+        ],
+        "legs": [
+            { "value": "null", "weight": 4 },
+            { "value": "minecraft:leather_leggings", "weight": 6 }
+        ],
+        "feet": [
+            { "value": "null", "weight": 6 },
+            { "value": "minecraft:leather_boots", "weight": 4 }
+        ]
+    },
+
+    "skeleton_gear": {
+        "hand": [
+            { "value": "minecraft:bow", "weight": 1 }
+        ]
+    }
+  }

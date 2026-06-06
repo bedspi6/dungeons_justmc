@@ -1,0 +1,145 @@
+{
+    "seeker": {
+        "name": "<gray>Искатель",
+        "description": "&7Тот, кто ищет путь в глубинах подземелий.",
+        "category": "suffix",
+        "model": "compass",
+        "weight": 50
+    },
+    "wanderer": {
+        "name": "<gray>Странник",
+        "description": "&7Бесцельно бродит по тёмным коридорам.",
+        "category": "suffix",
+        "model": "leather_boots",
+        "weight": 50
+    },
+    "roamer": {
+        "name": "<gray>Скиталец",
+        "description": "&7Не задерживается ни в одном месте надолго.",
+        "category": "suffix",
+        "model": "map",
+        "weight": 50
+    },
+    "traveler": {
+        "name": "<gray>Путник",
+        "description": "&7Всегда движется вперёд, несмотря на опасность.",
+        "category": "suffix",
+        "model": "bread",
+        "weight": 50
+    },
+    "guardian": {
+        "name": "<gray>Страж",
+        "description": "&7Хранитель забытых залов.",
+        "category": "suffix",
+        "model": "shield",
+        "weight": 50
+    },
+
+    "shadowed": {
+        "name": "<gradient:#2c3e50:#4b6cb7>Теневой</gradient>",
+        "description": "&7Сливается с мраком подземелий.",
+        "category": "suffix",
+        "model": "black_dye",
+        "weight": 25
+    },
+    "brave": {
+        "name": "<gradient:#1e90ff:#6fb1fc>Смелый</gradient>",
+        "description": "&7Не отступает перед страхом.",
+        "category": "suffix",
+        "model": "iron_sword",
+        "weight": 25
+    },
+    "survivor": {
+        "name": "<gradient:#3a7bd5:#00d2ff>Выживший</gradient>",
+        "description": "&7Пережил то, что не смогли другие.",
+        "category": "suffix",
+        "model": "golden_apple",
+        "weight": 25
+    },
+    "abyssal": {
+        "name": "<gradient:#000428:#004e92>Глубинный</gradient>",
+        "description": "&7Принадлежит самым мрачным уровням.",
+        "category": "suffix",
+        "model": "crying_obsidian",
+        "weight": 25
+    },
+    "agile": {
+        "name": "<gradient:#56ccf2:#2f80ed>Ловкий</gradient>",
+        "description": "&7Быстро реагирует на опасность.",
+        "category": "suffix",
+        "model": "rabbit_foot",
+        "weight": 25
+    },
+
+    "eternal": {
+        "name": "<gradient:#7f00ff:#e100ff>Вечный</gradient>",
+        "description": "&7Кажется, подземелья не властны над ним.",
+        "category": "suffix",
+        "model": "nether_star",
+        "weight": 10
+    },
+    "unbroken": {
+        "name": "<gradient:#8e2de2:#4a00e0>Непокорённый</gradient>",
+        "description": "&7Его воля не была сломлена.",
+        "category": "suffix",
+        "model": "diamond",
+        "weight": 10
+    },
+    "phantom": {
+        "name": "<gradient:#c33764:#1d2671>Фантом</gradient>",
+        "description": "&7Появляется и исчезает без следа.",
+        "category": "suffix",
+        "model": "phantom_membrane",
+        "weight": 10
+    },
+    "abandoned": {
+        "name": "<gradient:#434343:#000000>Заброшенный</gradient>",
+        "description": "&7Связан с покинутыми катакомбами.",
+        "category": "suffix",
+        "model": "cobweb",
+        "weight": 10
+    },
+    "lord": {
+        "name": "<gradient:#f7971e:#ffd200>Повелитель</gradient>",
+        "description": "&7Чувствует себя хозяином подземелий.",
+        "category": "suffix",
+        "model": "gold_block",
+        "weight": 10
+    },
+
+    "clumsy": {
+        "name": "<green>Неуклюжий",
+        "description": "&7Часто спотыкается среди ловушек.",
+        "category": "suffix",
+        "model": "feather",
+        "weight": 15
+    },
+    "overconfident": {
+        "name": "<green>Самоуверенный",
+        "description": "&7Слишком уверен в своих силах.",
+        "category": "suffix",
+        "model": "emerald",
+        "weight": 15
+    },
+    "tiny": {
+        "name": "<green>Малютка",
+        "description": "&7Невелик, но упрям.",
+        "category": "suffix",
+        "model": "slime_ball",
+        "weight": 15
+    },
+    "greedy": {
+        "name": "<green>Жадина",
+        "description": "&7Не проходит мимо сокровищ.",
+        "category": "suffix",
+        "model": "gold_nugget",
+        "weight": 15
+    },
+    "sneaky": {
+        "name": "<green>Ловкач",
+        "description": "&7Умеет проходить там, где другие не могут.",
+        "category": "suffix",
+        "model": "string",
+        "weight": 15
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "zombie": {
+        "mob_type": "zombie",
+        "name": "Зомби",
+
+        "attributes": {
+            "generic.max_health": 20,
+            "generic.attack_damage": 5,
+            "generic.movement_speed": 0.8
+        },
+
+        "nbt": {
+            "resistance-poison": 0.5,
+            "resistance-bleeding": 1.5
+        },
+
+        "level_progression": [
+            {
+                "level": 0,
+                "equipment": {
+                    "pool": "leather_set"
+                },
+                "drops": "basic_bones"
+            }
+        ],
+
+        "abilities": []
+    },
+
+    "skeleton": {
+        "mob_type": "skeleton",
+        "name": "Скелет",
+
+        "attributes": {
+            "generic.max_health": 10,
+            "generic.movement_speed": 1.2
+        },
+
+        "nbt": {
+            "resistance-poison": 1.5,
+            "resistance-bleeding": 0.5,
+            "ranged_damage": 3
+        },
+
+        "level_progression": [
+            {
+            "level": 0,
+            "equipment": {
+                "pool": "leather_set",
+                "extra": {
+                "hand": "skeleton_gear"
+                }
+            },
+            "drops": "basic_bones"
+            }
+        ],
+
+        "abilities": []
+    }
+  }
