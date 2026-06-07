@@ -44,14 +44,14 @@
 
         "level_progression": [
             {
-            "level": 0,
-            "equipment": {
-                "pool": "leather_set",
-                "extra": {
-                "hand": "skeleton_gear"
-                }
-            },
-            "drops": "basic_bones"
+                "level": 0,
+                "equipment": {
+                    "pool": "leather_set",
+                    "extra": {
+                        "hand": "skeleton_gear"
+                    }
+                },
+                "drops": "basic_bones"
             }
         ],
 
