@@ -1,21 +1,39 @@
 {
-    "purchases": [
-        {
-            "item_type": "minecraft:rotten_flesh",
-            "item_amount": 1,
-            "price": 2
-        },
-        {
-            "item_type": "minecraft:bone",
-            "item_amount": 1,
-            "price": 3
-        }
-    ],
-    "sales": [
-        {
-            "item_type": "minecraft:bow",
-            "item_amount": 1,
-            "price": 10
-        }   
-    ]
+    "purchases": 
+    {
+        "trader_item_type": "purchase",
+        "position_formula": "~math((~var_line(item_index) % 4) + (floor(~var_line(item_index) / 4) * 9))",
+        "items": 
+        [
+            {
+                "item": {
+                    "type": "minecraft:rotten_flesh",
+                    "amount": 1
+                },
+                "price": 2
+            },
+            {
+                "item": {
+                    "type": "minecraft:bone",
+                    "amount": 1
+                },
+                "price": 3
+            }
+        ]
+    },
+    "sales": 
+    {
+        "trader_item_type": "sale",
+        "position_formula": "~math((floor(~var_line(item_index) / 4) + 1) * 5)",
+        "items": 
+        [
+            {
+                "item": {
+                    "type": "minecraft:iron_sword",
+                    "amount": 1
+                },
+                "price": 15
+            }
+        ]
+    }
 }
