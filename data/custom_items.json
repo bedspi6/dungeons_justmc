@@ -1,172 +1,224 @@
 {
     "common_pack": {
-        "model": "paper",
-        "custom_model": "gray_bundle",
+        "item": {
+            "type": "paper",
+            "custom_model": "gray_bundle",
+            "name": "Обычный набор",
+            "max_amount": 8,
+            "lore": [
+                "Выдает случайный обычный предмет."
+            ]
+        },
+        "type": "consumable",
         "weight": 60,
         "rarity": "common",
-        "name": "Обычный набор",
-        "modifiers": "active",
-        "mod_script": "rarity_random_item",
-        "mods_properties": {
-            "rarity": "common"
-        },
-        "des": {
-            "active": "Выдает случайный обычный предмет."
-        },
-        "max_stack": 8
+        "type_data": {
+            "func": "rarity_random_item",
+            "func_data": {
+                "rarity": "common"
+            }
+        }
     },
 
     "uncommon_pack": {
-        "model": "paper",
-        "custom_model": "green_bundle",
+        "item": {
+            "type": "paper",
+            "custom_model": "green_bundle",
+            "name": "Необычный набор",
+            "max_amount": 8,
+            "lore": [
+                "Выдает случайный необычный предмет."
+            ]
+        },
+        "type": "consumable",
         "weight": 30,
         "rarity": "uncommon",
-        "name": "Необычный набор",
-        "modifiers": "active",
-        "mod_script": "rarity_random_item",
-        "mods_properties": {
-            "rarity": "uncommon"
-        },
-        "des": {
-            "active": "Выдает случайный необычный предмет."
-        },
-        "max_stack": 8
+        "type_data": {
+            "func": "rarity_random_item",
+            "func_data": {
+                "rarity": "uncommon"
+            }
+        }
     },
 
     "rare_pack": {
-        "model": "paper",
-        "custom_model": "blue_bundle",
+        "item": {
+            "type": "paper",
+            "custom_model": "blue_bundle",
+            "name": "Редкий набор",
+            "max_amount": 8,
+            "lore": [
+                "Выдает случайный редкий предмет."
+            ]
+        },
+        "type": "consumable",
         "weight": 10,
         "rarity": "rare",
-        "name": "Редкий набор",
-        "modifiers": "active",
-        "mod_script": "rarity_random_item",
-        "mods_properties": {
-            "rarity": "rare"
-        },
-        "des": {
-            "active": "Выдает случайный редкий предмет."
-        },
-        "max_stack": 8
+        "type_data": {
+            "func": "rarity_random_item",
+            "func_data": {
+                "rarity": "rare"
+            }
+        }
     },
 
     "slime_ball": {
-        "model": "paper",
-        "custom_model": "slime_ball",
-        "weight": 60,
-        "rarity": "common",
-        "name": "Слайм",
-        "modifiers": "passive",
-        "mods_properties": {
-            "knockback": 1
-        },
-        "player_attributes": {
-            "generic.attack_knockback": "*knockback"
-        },
-        "des": {
-            "passive": "Увеличивает отталкивание от ударов. Эффект усиливается при стеке до 3 предметов, помогая контролировать позицию в бою с толпой."
-        },
-        "max_stack": 3
-    },
-
-    "status_pack": {
-        "model": "paper",
-        "custom_model": "white_bundle",
-        "weight": 30,
-        "rarity": "uncommon",
-        "name": "Набор статусов",
-        "modifiers": "active",
-        "mods_properties": {
-            "items": [
-                "fireball",
-                "windball",
-                "snowball",
-                "lightball",
-                "spore"
+        "item": {
+            "type": "paper",
+            "custom_model": "slime_ball",
+            "name": "Слайм",
+            "max_amount": 3,
+            "lore": [
+                "Увеличивает отталкивание от ударов. Эффект усиливается при стеке до 3 предметов, помогая контролировать позицию в бою с толпой."
             ]
         },
-        "des": {
-            "active": "Выдает случайный статус предмет."
+        "type": "modifier",
+        "weight": 60,
+        "rarity": "common",
+        "type_data": {
+            "type": "passive",
+            "properties": {
+                "knockback": 1
+            },
+            "player_attributes": {
+                "generic.attack_knockback": "*knockback"
+            }
+        }
+    },
+
+    "elemental_pack": {
+        "item": {
+            "type": "paper",
+            "custom_model": "white_bundle",
+            "name": "Набор стихийных предметов",
+            "max_amount": 3,
+            "lore": [
+                "Выдает случайный стихийный предмет."
+            ]
         },
-        "max_stack": 3
+        "type": "consumable",
+        "weight": 30,
+        "rarity": "uncommon",
+        "type_data": {
+            "func": "random_item",
+            "func_data": {
+                "items": [
+                    "fireball",
+                    "windball",
+                    "snowball",
+                    "lightball",
+                    "spore"
+                ]
+            }
+        }
     },
 
     "fireball": {
-        "model": "paper",
-        "custom_model": "fire_charge",
+        "item": {
+            "type": "paper",
+            "custom_model": "fire_charge",
+            "name": "Огненный шар",
+            "max_amount": 6,
+            "lore": [
+                "Поджигает выбранное существо. Если цель уже горит — вызывает огненный взрыв по области."
+            ]
+        },
+        "type": "consumable",
         "weight": 60,
         "rarity": "common",
-        "name": "Огненный шар",
-        "modifiers": "active",
-        "des": {
-            "active": "Поджигает выбранное существо. Если цель уже горит — вызывает огненный взрыв по области."
-        },
-        "max_stack": 6
+        "type_data": {
+            "func": "fireball"
+        }
     },
 
     "windball": {
-        "model": "paper",
-        "custom_model": "wind_charge",
+        "item": {
+            "type": "paper",
+            "custom_model": "wind_charge",
+            "name": "Заряд ветра",
+            "max_amount": 6,
+            "lore": [
+                "Отталкивает выбранное существо и ближайших к нему врагов. Сила отталкивания зависит от расстояния до цели."
+            ]
+        },
+        "type": "consumable",
         "weight": 60,
         "rarity": "common",
-        "name": "Заряд ветра",
-        "modifiers": "active",
-        "des": {
-            "active": "Отталкивает выбранное существо и ближайших к нему врагов. Сила отталкивания зависит от расстояния до цели."
-        },
-        "max_stack": 6
+        "type_data": {
+            "func": "windball"
+        }
     },
 
     "snowball": {
-        "model": "paper",
-        "custom_model": "snowball",
+        "item": {
+            "type": "paper",
+            "custom_model": "snowball",
+            "name": "Снежок",
+            "max_amount": 6,
+            "lore": [
+                "Замораживает выбранное существо и ближайших врагов. Эффект снимается при получении урона."
+            ]
+        },
+        "type": "consumable",
         "weight": 60,
         "rarity": "common",
-        "name": "Снежок",
-        "modifiers": "active",
-        "des": {
-            "active": "Замораживает выбранное существо и ближайших врагов. Эффект снимается при получении урона."
-        },
-        "max_stack": 6
+        "type_data": {
+            "func": "snowball"
+        }
     },
 
     "lightball": {
-        "model": "paper",
-        "custom_model": "lightning_rod",
+        "item": {
+            "type": "paper",
+            "custom_model": "lightning_rod",
+            "name": "Громоотвод",
+            "max_amount": 6,
+            "lore": [
+                "Поражает выбранное существо ударом молнии. Урон увеличивается, если рядом есть другие существа."
+            ]
+        },
+        "type": "consumable",
         "weight": 60,
         "rarity": "common",
-        "name": "Громоотвод",
-        "modifiers": "active",
-        "des": {
-            "active": "Поражает выбранное существо ударом молнии. Урон увеличивается, если рядом есть другие существа."
-        },
-        "max_stack": 6
+        "type_data": {
+            "func": "lightball"
+        }
     },
 
     "spore": {
-        "model": "paper",
-        "custom_model": "brown_mushroom",
+        "item": {
+            "type": "paper",
+            "custom_model": "brown_mushroom",
+            "name": "Споры",
+            "max_amount": 6,
+            "lore": [
+                "Отравляет выбранное существо и ближайших врагов. При смерти цели остаётся ядовитое облако."
+            ]
+        },
+        "type": "consumable",
         "weight": 60,
         "rarity": "common",
-        "name": "Споры",
-        "modifiers": "active",
-        "des": {
-            "active": "Отравляет выбранное существо и ближайших врагов. При смерти цели остаётся ядовитое облако."
-        },
-        "max_stack": 6
+        "type_data": {
+            "func": "spore"
+        }
     },
 
     "totem": {
-        "model": "paper",
-        "custom_model": "totem_of_undying",
+        "item": {
+            "type": "paper",
+            "custom_model": "totem_of_undying",
+            "name": "Тотем",
+            "max_amount": 1,
+            "lore": [
+                "Активно: позволяет воскресить другого игрока.",
+                "Пассивно: предотвращает смерть владельца."
+            ]
+        },
+        "type": "modifier",
         "weight": 10,
         "rarity": "rare",
-        "name": "Тотем",
-        "modifiers": "active/passive",
-        "des": {
-            "active": "Позволяет воскресить другого игрока.",
-            "passive": "Предотвращает смерть владельца."
-        },
-        "max_stack": 1
+        "type_data": {
+            "func": "totem"
+        }
     }
 }
