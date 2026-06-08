@@ -22,6 +22,7 @@
         "equipment_pool.json",
         "floor_definitions.json",
         "floor_generation.json",
-        "trader_items.json"
+        "trader_items.json",
+        "item_types.json"
     ]
 }
