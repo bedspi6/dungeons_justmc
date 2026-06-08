@@ -1,7 +1,7 @@
 {
     "common_pack": {
         "item": {
-            "type": "paper",
+            "type": "minecraft:paper",
             "custom_model": "gray_bundle",
             "name": "Обычный набор",
             "max_amount": 8,
@@ -22,7 +22,7 @@
 
     "uncommon_pack": {
         "item": {
-            "type": "paper",
+            "type": "minecraft:paper",
             "custom_model": "green_bundle",
             "name": "Необычный набор",
             "max_amount": 8,
@@ -43,7 +43,7 @@
 
     "rare_pack": {
         "item": {
-            "type": "paper",
+            "type": "minecraft:paper",
             "custom_model": "blue_bundle",
             "name": "Редкий набор",
             "max_amount": 8,
@@ -64,7 +64,7 @@
 
     "slime_ball": {
         "item": {
-            "type": "paper",
+            "type": "minecraft:paper",
             "custom_model": "slime_ball",
             "name": "Слайм",
             "max_amount": 3,
@@ -88,7 +88,7 @@
 
     "elemental_pack": {
         "item": {
-            "type": "paper",
+            "type": "minecraft:paper",
             "custom_model": "white_bundle",
             "name": "Набор стихийных предметов",
             "max_amount": 3,
@@ -115,7 +115,7 @@
 
     "fireball": {
         "item": {
-            "type": "paper",
+            "type": "minecraft:paper",
             "custom_model": "fire_charge",
             "name": "Огненный шар",
             "max_amount": 6,
@@ -133,7 +133,7 @@
 
     "windball": {
         "item": {
-            "type": "paper",
+            "type": "minecraft:paper",
             "custom_model": "wind_charge",
             "name": "Заряд ветра",
             "max_amount": 6,
@@ -151,7 +151,7 @@
 
     "snowball": {
         "item": {
-            "type": "paper",
+            "type": "minecraft:paper",
             "custom_model": "snowball",
             "name": "Снежок",
             "max_amount": 6,
@@ -169,7 +169,7 @@
 
     "lightball": {
         "item": {
-            "type": "paper",
+            "type": "minecraft:paper",
             "custom_model": "lightning_rod",
             "name": "Громоотвод",
             "max_amount": 6,
@@ -187,7 +187,7 @@
 
     "spore": {
         "item": {
-            "type": "paper",
+            "type": "minecraft:paper",
             "custom_model": "brown_mushroom",
             "name": "Споры",
             "max_amount": 6,
@@ -205,7 +205,7 @@
 
     "totem": {
         "item": {
-            "type": "paper",
+            "type": "minecraft:paper",
             "custom_model": "totem_of_undying",
             "name": "Тотем",
             "max_amount": 1,
