@@ -3,6 +3,10 @@
     {
         "trader_item_type": "purchase",
         "position_formula": "~math((~var_line(item_index) % 4) + (floor(~var_line(item_index) / 4) * 9))",
+        "additional_lore": [
+            "<%var(color.gray)>[Клик] → купить",
+            "<%var(color.gray)>[Shift + Клик] → купить за всю валюту"
+        ],
         "items": 
         [
             {
@@ -25,6 +29,10 @@
     {
         "trader_item_type": "sale",
         "position_formula": "~math((floor(~var_line(item_index) / 4) + 1) * 5)",
+        "additional_lore": [
+            "<%var(color.gray)>[Клик] → продать",
+            "<%var(color.gray)>[Shift + Клик] → продать весь стак"
+        ],
         "items": 
         [
             {
