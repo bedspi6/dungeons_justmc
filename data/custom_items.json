@@ -2,7 +2,7 @@
     "common_pack": {
         "item": {
             "type": "minecraft:paper",
-            "custom_model": "gray_bundle",
+            "model": "gray_bundle",
             "name": "Обычный набор",
             "max_amount": 8,
             "lore": [
@@ -23,7 +23,7 @@
     "uncommon_pack": {
         "item": {
             "type": "minecraft:paper",
-            "custom_model": "green_bundle",
+            "model": "green_bundle",
             "name": "Необычный набор",
             "max_amount": 8,
             "lore": [
@@ -44,7 +44,7 @@
     "rare_pack": {
         "item": {
             "type": "minecraft:paper",
-            "custom_model": "blue_bundle",
+            "model": "blue_bundle",
             "name": "Редкий набор",
             "max_amount": 8,
             "lore": [
@@ -65,7 +65,7 @@
     "slime_ball": {
         "item": {
             "type": "minecraft:paper",
-            "custom_model": "slime_ball",
+            "model": "slime_ball",
             "name": "Слайм",
             "max_amount": 3,
             "lore": [
@@ -89,7 +89,7 @@
     "elemental_pack": {
         "item": {
             "type": "minecraft:paper",
-            "custom_model": "white_bundle",
+            "model": "white_bundle",
             "name": "Набор стихийных предметов",
             "max_amount": 3,
             "lore": [
@@ -116,7 +116,7 @@
     "fireball": {
         "item": {
             "type": "minecraft:paper",
-            "custom_model": "fire_charge",
+            "model": "fire_charge",
             "name": "Огненный шар",
             "max_amount": 6,
             "lore": [
@@ -134,7 +134,7 @@
     "windball": {
         "item": {
             "type": "minecraft:paper",
-            "custom_model": "wind_charge",
+            "model": "wind_charge",
             "name": "Заряд ветра",
             "max_amount": 6,
             "lore": [
@@ -152,7 +152,7 @@
     "snowball": {
         "item": {
             "type": "minecraft:paper",
-            "custom_model": "snowball",
+            "model": "snowball",
             "name": "Снежок",
             "max_amount": 6,
             "lore": [
@@ -170,7 +170,7 @@
     "lightball": {
         "item": {
             "type": "minecraft:paper",
-            "custom_model": "lightning_rod",
+            "model": "lightning_rod",
             "name": "Громоотвод",
             "max_amount": 6,
             "lore": [
@@ -188,7 +188,7 @@
     "spore": {
         "item": {
             "type": "minecraft:paper",
-            "custom_model": "brown_mushroom",
+            "model": "brown_mushroom",
             "name": "Споры",
             "max_amount": 6,
             "lore": [
@@ -206,7 +206,7 @@
     "totem": {
         "item": {
             "type": "minecraft:paper",
-            "custom_model": "totem_of_undying",
+            "model": "totem_of_undying",
             "name": "Тотем",
             "max_amount": 1,
             "lore": [
