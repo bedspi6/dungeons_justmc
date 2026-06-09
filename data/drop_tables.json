@@ -2,7 +2,15 @@
     "basic_bones": 
     [
         {
-            "item": "minecraft:bone",
+            "item": "custom:bone",
+            "amount": { "min": 1, "max": 3 },
+            "weight": 1
+        }
+    ],
+    "basic_rotten_flesh": 
+    [
+        {
+            "item": "custom:rotten_flesh",
             "amount": { "min": 1, "max": 3 },
             "weight": 1
         }

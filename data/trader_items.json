@@ -11,14 +11,14 @@
         [
             {
                 "item": {
-                    "type": "minecraft:rotten_flesh",
+                    "type": "custom:rotten_flesh",
                     "amount": 1
                 },
                 "price": 2
             },
             {
                 "item": {
-                    "type": "minecraft:bone",
+                    "type": "custom:bone",
                     "amount": 1
                 },
                 "price": 3
@@ -37,7 +37,7 @@
         [
             {
                 "item": {
-                    "type": "minecraft:iron_sword",
+                    "type": "custom:iron_sword",
                     "amount": 1
                 },
                 "price": 15

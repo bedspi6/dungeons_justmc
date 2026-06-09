@@ -220,5 +220,47 @@
         "type_data": {
             "func": "totem"
         }
+    },
+
+    "bone": {
+        "item": {
+            "type": "minecraft:bone",
+            "name": "Кость",
+            "max_amount": 16,
+            "lore": [
+                "Ресурс для создания предметов."
+            ]
+        },
+        "type": "resource",
+        "weight": 0,
+        "rarity": "common"
+    },
+
+    "rotten_flesh": {
+        "item": {
+            "type": "minecraft:rotten_flesh",
+            "name": "Гнилая плоть",
+            "max_amount": 16,
+            "lore": [
+                "Ресурс для создания предметов."
+            ]
+        },
+        "type": "resource",
+        "weight": 0,
+        "rarity": "common"
+    },
+
+    "iron_sword": {
+        "item": {
+            "type": "minecraft:iron_sword",
+            "name": "Железный меч",
+            "max_amount": 1,
+            "lore": [
+                "Оружие ближнего боя."
+            ]
+        },
+        "type": "weapon",
+        "weight": 0,
+        "rarity": "common"
     }
 }

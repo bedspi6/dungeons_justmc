@@ -1,4 +1,7 @@
 {
     "consumable": "Расходник",
-    "modifier": "Модификатор"
+    "modifier": "Модификатор",
+    "resource": "Ресурс",
+    "weapon": "Оружие",
+    "armor": "Броня"
 }
